@@ -1,0 +1,66 @@
+#包装类
+bug:
+  bugAge: 1212
+  bugName: |
+    
+            你是
+              一只 
+                蟑螂
+  death: false
+  bugWeight: 8.2
+#对象
+  smallBug:
+    name: >
+          small蟑螂
+          你是一只
+          small蟑螂
+    age: 12
+
+#数组
+  army:
+    - name: small1
+      age: 121
+    - name: small2
+      age: 122
+#Map
+  note:
+    bugnote1:
+      age: 12
+      name: 蚊子
+      likeFood:
+        foodName: blood
+    bugbote2:
+      age: 10
+      name: 苍蝇
+      likeFood:
+        foodName: blood
+
+    bugnote3: { name: 水蚊子,age: 90,likeFood: {foodName: blood}}
+    bugnote4: { name: 毒蚊子,age: 133,likeFood: {foodName: blood}}
+
+#对象数组
+  smallbugs:
+    - name: 小小蚊子
+      age: 12
+      likeFood:
+        foodName:
+          blood
+
+
+---
+# 没有具体指定都用root的日志级别
+logging:
+  file:
+    name: D:\\a.log
+  logback:
+
+
+
+#  group:
+#    ab:
+#      com.a,com.b
+#  level:
+#    ab: info
+spring:
+  main:
+    banner-mode: off
